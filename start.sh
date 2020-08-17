@@ -1,4 +1,4 @@
-export FLASK_APP=entry
+export FLASK_APP=entry.py
 export FLASK_ENV=development
 export FLASK_DEBUG=True
 
