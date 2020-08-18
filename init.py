@@ -19,6 +19,7 @@ def _load_configs(app):
 
 def _init_database(app):
     db.init_app(app)
+    db.create_all(app=app)
 
 
 def _register_blueprint(app):
